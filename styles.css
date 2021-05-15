@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  width: auto;
+}
+
+/************************************************Titulos****************************************************/
+.titulo {
+  text-align: center;
+  padding-top: 4%;
+}
+
+/******************************************* Informacion e iconos*******************************************/
+.informacion {
+  background: #fff;
+  padding: 90px 0px;
+}
+.informacion .texto {
+  text-align: center;
+  padding: 0px 20px;
+}
+.informacion .texto i {
+  text-align: center;
+  display: block;
+}
+.infoTienda {
+  display: flex;
+  justify-content: center;
+}
+
+/*********************************************Inicio***********************************************************/
+.container-fluid {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.imgDama {
+  width: 50rem;
+  height: 12rem;
+}
+.imgCategoria {
+  z-index: -1;
+  position: relative;
+  filter: grayscale(2) !important;
+  opacity: 0.8;
+}
+.imgIndex {
+  overflow: hidden;
+  align-items: center;
+}
+.imgIndex figure {
+  margin: 0px;
+}
+.padding {
+  padding: 0px;
+}
+.alinearContenido {
+  align-items: center;
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.contenidoTexto {
+  background: #cc0000;
+  height: 2% !important;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+/*******************************Para que la letra quede salida de div********************************/
+.contenidoTexto .textoIndex {
+  margin-left: -75px;
+  margin-right: -78px;
+  font-size: 20px;
+}
+
+/******************************************Formato de letra******************************************/
+.contenidoTexto .textoIndex h3 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+.contenidoTexto .textoIndex p {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+}
+
+/**********************************************Boton de inicio****************************************/
+.contenidoTexto .textoIndex a {
+  max-width: 167px;
+  background: #2a2e33;
+  color: black;
+  width: 100%;
+  margin: 15px 0px;
+  padding: 12px 0px;
+  display: inline-block;
+}
+.btnCategoriaRopa {
+  text-align: center;
+}
+.contenidoTexto .textoIndex a:hover {
+  background: #000;
+  color: #cc0000;
+}
+
+/*******************************************Servicios*****************************************************/
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.listado {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+/***********************************************Tienda/Woman/Men*****************************************************/
+.tamanioImg {
+  overflow: hidden;
+}
+.tamanio {
+  /* height: 18rem !important; */
+}
+.containerTienda {
+  margin-top: 6%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.imgVentas {
+  height: 15rem !important;
+  overflow: hidden;
+}
+.contenidoTienda {
+  padding-bottom: 2%;
+  /* padding-left: -3%; */
+}
+.btnVenta {
+  font-size: 20px;
+  color: black !important;
+  text-decoration: none !important;
+}
+.a {
+  text-decoration: none !important;
+}
+.efecto:hover {
+  background: #cc0000;
+  color: #343a40 !important;
+}
+.t {
+  height: 15rem;
+}
+@media only screen and (max-width: 800px) {
+  .t {
+    height: 12rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .t {
+    height: 19rem;
+  }
+}
+/****************************************************Banner***************************************************/
+.imgBanner {
+  width: 100% !important;
+}
+.formatoTexto {
+  right: 0;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.textoBanner {
+  background: #cc0000;
+  font-size: 35px;
+  color: #fff !important;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+  height: 10rem;
+}
+.banner .text-bg h2 {
+  color: #cc0000;
+  font-size: 20px;
+  line-height: 33px;
+  text-align: center;
+}
+
+/*****************************************Nav**************************************/
+.navbar {
+  background: #cc0000 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+/************************************Medidas***************************************/
+caption {
+  caption-side: top !important;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+  color: black;
+  text-align: center !important;
+}
+
+.thead {
+  background: #cc0000;
+  color: #000;
+}
+
+/************************footer******************************************/
+.footerInferior {
+  background: rgba(0, 0, 0, 0.2);
+}
